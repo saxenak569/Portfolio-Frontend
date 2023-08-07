@@ -1,0 +1,37 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 267px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    border-radius: 25px;
+    background-color: #1f252e;
+    /* border: 2px solid white; */
+    font-size: large;
+}
+
+.cv{
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid white;
+    background-color: #1f252e;
+    color: white;
+}
+.cv:hover {
+    background-color: white;
+    filter: drop-shadow(0 0 20px #009df8);
+    transform: scale(1.02);
+    transition: all .2s ease;
+}
+
+.cv a:hover{
+    color: #1f252e;
+}
+.cv a{
+    color: white;
+    text-decoration: none;
+}
